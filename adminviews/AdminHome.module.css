@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #f4f6f9, #e2e8f0); /* Soft, sophisticated gradient */
+    padding: 40px 20px;
+    font-family: 'Segoe UI', sans-serif;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .heading {
+    background-color: #34495e; /* Elegant dark color */
+    color: #ecf0f1;
+    padding: 16px 36px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12); /* Deep shadow for elegance */
+    letter-spacing: 1px;
+  }
+  
+  .buttonGroup {
+    background-color: #ffffff;
+    padding: 25px 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08); /* Soft, refined shadow */
+    margin-bottom: 45px;
+    border: 1px solid #d1d8e0;
+  }
+  
+  .button {
+    padding: 14px 22px;
+    background: linear-gradient(135deg, rgb(24, 68, 104), #014e7b); /* Bold blue gradient */
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 188, 212, 0.2);
+  }
+  
+  .button:hover {
+    background: linear-gradient(135deg, #187fbe, #005485); /* Darker blue gradient for hover effect */
+    transform: translateY(-4px); /* Slight elevation */
+    box-shadow: 0 8px 16px rgba(0, 188, 212, 0.3); /* Enhanced shadow on hover */
+  }
+  
+  .section {
+    width: 100%;
+    max-width: 1050px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 28px 35px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+    border: 1px solid #e2e8f0;
+    margin-top: 25px;
+  }
+  

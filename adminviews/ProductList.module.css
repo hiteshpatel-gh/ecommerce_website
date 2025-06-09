@@ -1,0 +1,131 @@
+/* ProductPage.module.css */
+.productPage {
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #ffffff, #a8e6ff);
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  
+  .customerId {
+    font-size: 16px;
+    color: #272727;
+    margin-bottom: 10px;
+  }
+  
+  .cartSection {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .cartSection button {
+    padding: 8px 15px;
+    background-color: #1E3E62;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .cartSection button:hover {
+    background-color: #0f4da3;
+  }
+  
+  .searchSection {
+    margin: 20px 0;
+    font-weight: 600;
+    color: #1E3E62;
+  }
+  
+  .searchSelect {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: 1px solid #005580;
+    border-radius: 4px;
+  }
+  
+  .productHeading {
+    background: linear-gradient(to right, #beddff, #0059b3);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px 0;
+  }
+  
+  .productGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .productCard {
+    background-color: #ffffff;
+    border: 2px solid #96ccff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 3px 8px rgba(0, 102, 204, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* .productCard:hover {
+    transform: translateY(-5px);
+  }
+   */
+  .productImage {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .productInfo h5 {
+    color: #0046a2;
+    margin: 5px 0;
+  }
+  
+  .productInfo p {
+    margin: 2px 0;
+    font-size: 13px;
+    color: #333;
+  }
+  
+  .active {
+    margin-top: 10px;
+    padding: 8px 12px;
+    width: 100%;
+    background-color: #0B192C;
+    border: none;
+    color: #71e241;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .inactive {
+    margin-top: 10px;
+    padding: 8px 12px;
+    width: 100%;
+    background-color: #0B192C;
+    border: none;
+    color: #ff2f2f;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .active:hover {
+    background-color: #3d4f6b;
+  }
+  .inactive:hover {
+    background-color: #3d4f6b;
+  }
+  

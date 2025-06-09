@@ -1,0 +1,78 @@
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #ffffff, #a8e6ff);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.formBox {
+  background-color: #fff;
+  padding: 40px;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.formTitle {
+  font-size: 22px;
+  margin-bottom: 25px;
+  color: #333;
+  font-weight: 600;
+  text-align: left;
+}
+
+.formLabel {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #555;
+}
+
+.formInput,
+.formControl,
+select {
+  background-color: #000000;
+  color: #ffffff;
+  width: 100%;
+  padding: 10px 12px;
+  border: 1.8px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-bottom: 18px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.formInput:focus,
+.formControl:focus,
+select:focus {
+  background-color: #ffffff;  /* White background on focus */
+  color: #000000;             /* Black text on focus */
+  border-color: #576ee3;
+}
+
+.formImage {
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.formButton {
+  width: 100%;
+  padding: 12px;
+  background-color: #1e1e1e;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.formButton:hover {
+  background-color: #06507e;
+}

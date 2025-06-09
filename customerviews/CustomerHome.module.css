@@ -1,0 +1,74 @@
+.customerHomeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, #ffffff, #a8e6ff);
+    min-height: 100vh;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .customerCard {
+    background-color: #fff;
+    padding: 40px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .customerCard p {
+    font-size: 14px;
+    color: #434343;
+    margin-bottom: 10px;
+  }
+  .customerCard h6{
+    background-color: #89A8B2;
+    padding: 3px;
+  }
+
+  .customerCard h4,
+  .customerCard h6 {
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .customerImage {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 15px 0;
+    object-fit: cover;
+    border: 2px solid #ccc;
+  }
+  
+  .customerButton {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    background-color: #1e1e1e;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .customerButton:hover {
+    background-color: #06507e;
+  }
+  
+  .customerMarquee {
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+  }
+  .productWrapper,
+.billWrapper {
+  width: 1200px;
+  margin-top: 30px;
+  padding: 20px;
+}

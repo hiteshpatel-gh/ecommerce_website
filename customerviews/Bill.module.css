@@ -1,0 +1,81 @@
+/* Container styling */
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f4f6f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(96, 125, 139, 0.2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #263238;
+  width: 400px;
+}
+
+/* Section styling */
+.infoSection,
+.billSection {
+  margin-bottom: 30px;
+}
+
+/* Table styles */
+.infoTable,
+.billTable {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #d3d5d8;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(96, 125, 139, 0.1);
+}
+
+.infoTable td,
+.billTable th,
+.billTable td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #cfd8dc;
+}
+
+.billTable th {
+  background-color: #455a64;
+  color: white;
+  text-align: left;
+}
+
+/* Headings */
+.billHeading,
+.totalHeading {
+  color: #27548A;
+  margin-bottom: 15px;
+}
+
+/* Total amount */
+.totalHeading {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Button */
+.payButton {
+  text-align: center;
+  background-color: #27548A;
+  color: rgb(255, 255, 255);
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.payButton:hover {
+  background-color: rgb(3, 55, 84);
+}
+
+/* Product image */
+.productImg {
+  border-radius: 4px;
+  border: 1px solid #cfd8dc;
+  object-fit: cover;
+}
